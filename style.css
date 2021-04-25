@@ -51,14 +51,14 @@ body{
 }
 .presentation h1{
     font-size: 4em;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 5px black;
     margin-top: 30px;
 }
 @media screen and (max-width:700px)
 {
     .presentation h1{
         font-size: 3.3em;
-        text-shadow: 2px 2px 2px black;
+        text-shadow: 2px 2px 5px black;
         margin-top: 30px;
     }
 }
@@ -129,7 +129,7 @@ background: linear-gradient(to right, #4b19a7 60%, white 75%);
 #parcours{
     font-family: 'Satisfy', cursive;
     color: white;
-    text-shadow: 2px 2px 20px black;
+    text-shadow: 2px 2px 5px black;
     font-size: 4em;
     margin-top: 60px;
 }
@@ -313,13 +313,17 @@ background: linear-gradient(to right, #4b19a7 60%, white 75%);
 #contact{
     font-family: 'Satisfy', cursive;
     color: white;
-    text-shadow: 1px 1px 20px black;
+    text-shadow: 1px 1px 5px black;
     font-size:2.8em;
     text-decoration: underline;
     text-align: center;
 }
 .mail a{
     color: salmon;
+}
+.tel{
+    text-shadow: none;
+    color:white;
 }
 .box{
     text-align: center;
