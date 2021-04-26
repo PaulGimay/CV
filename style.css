@@ -45,7 +45,7 @@ body{
     z-index:1000;
 }
 .presentation:hover{
-    box-shadow: 0 0 0 10px salmon;
+   /*  box-shadow: 0 0 0 10px salmon; */
     transition:.5s ease;
     transform:translate(10px,10px)
 }
@@ -122,7 +122,7 @@ background: linear-gradient(to right, #4b19a7 60%, white 75%);
     z-index:1000;
 }
 .parcours:hover{
-    box-shadow: 0 0 0 10px rgba(108, 192, 248, 1);
+  /*   box-shadow: 0 0 0 10px rgba(108, 192, 248, 1); */
     transition:.5s ease;
     transform:translate(10px,10px)
 }
@@ -156,7 +156,7 @@ background: linear-gradient(to right, #4b19a7 60%, white 75%);
     z-index:1000;
 }
 .competences:hover{
-    box-shadow: 0 0 0 10px limegreen;
+  /*   box-shadow: 0 0 0 10px limegreen; */
     transition:.5s ease;
     transform:translate(-10px,10px)
 }
@@ -296,8 +296,8 @@ background: linear-gradient(to right, #4b19a7 60%, white 75%);
 
 }
 .contact:hover{
-    box-shadow: 0 0 0 10px salmon;
-    transition:.5s ease;
+/*     box-shadow: 0 0 0 10px salmon;
+ */    transition:.5s ease;
     transform:translate(10px,10px)
 }
 .containercontact{
@@ -465,29 +465,6 @@ background: linear-gradient(to right, #4b19a7 60%, white 75%);
         box-shadow: 2px 2px 5px white;
          }
         }
-        .rond9{
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            background-color:salmon;
-            position:absolute;
-            bottom: 50px;
-            left: 100px;
-            box-shadow: 2px 2px 20px white;
-         }
-         @media screen and (max-width:700px)
-         {
-             .rond9{
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            background-color:salmon;
-            position:absolute;
-            bottom: -165px;
-            left: 20px;
-            box-shadow: 2px 2px 20px white;
-        }
-         }
          .rond10{
             width: 40px;
             height: 40px;
