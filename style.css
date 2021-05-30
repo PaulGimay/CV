@@ -62,6 +62,7 @@ body{
     font-size: 3.5em;
     text-shadow: 2px 2px 5px black;
     margin-top: 30px;
+    letter-spacing: 4px;
 }
 @media screen and (max-width:700px)
 {
@@ -69,14 +70,19 @@ body{
         font-size: 3.3em;
         text-shadow: 2px 2px 5px black;
         margin-top: 30px;
+        letter-spacing: 3px;
     }
 }
 #bilingue{
     color: salmon;
+  
+    letter-spacing: 2px;
 }
 
 #age{
     color: silver;
+   
+    letter-spacing: 3px;
 }
 #web{
     font-size: 2.5em;
@@ -115,7 +121,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
     }
 }
 .parcours{
-
+  
     grid-area: parcours;
     background: rgba( 255, 255, 255, 0.05 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -144,6 +150,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
     text-shadow: 2px 2px 5px black;
     font-size: 3.5em;
     margin-top: 60px;
+    letter-spacing: 3px;
 }
 .histoire{
     color: salmon;
@@ -163,8 +170,10 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
    text-align: center;
     margin-top: 10px;
     margin: 0 auto;
+    letter-spacing: 3px;
 }
 .competences{
+
     grid-area: competences;
     background: rgba( 255, 255, 255, 0.05 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -315,6 +324,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
     /* font-family: 'Satisfy', cursive; */
     font-family: 'Anton', sans-serif;
     font-size: 1em;
+    letter-spacing: 3px;
     color: whitesmoke;
     margin: 2%;
     transition: .5s ease;
@@ -385,13 +395,13 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background-color: rgba(189, 99, 201, 1);          
+    background-color: rgba(189, 99, 201, 0.2);          
     position:absolute;
     top: 5px;
     left: 120px;
-    box-shadow: 1px 1px 20px white;
+    box-shadow: 0px 0px 1px white;
 }
-.rond2{
+/* .rond2{
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -401,7 +411,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
     left: 180px;
     box-shadow: 2px 2px 20px white;
   
- }
+ } */
 
 @media screen and (max-width:700px) {
     .rond2{
@@ -409,14 +419,43 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
     }
 }
 .rond3{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgba(77, 27, 84, 0.3);          
+    position:absolute;
+    top: 300px;
+    left: 800px;
+    box-shadow: 0px 0px 1px white;
+}
+.rond31{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: rgba(77, 27, 84, 0.1);          
+    background-color: rgba(77, 27, 84, 0.3);          
     position:absolute;
-    top: 300px;
-    left: 710px;
-    box-shadow: 0px 0px 20px white;
+    bottom: 300px;
+    left: 400px;
+    box-shadow: 0px 0px 1px white;
+}.rond32{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(77, 27, 84, 0.3);          
+    position:absolute;
+    top: 1000px;
+    left: 380px;
+    box-shadow: 0px 0px 1px white;
+}
+.rond33{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(77, 27, 84, 0.3);          
+    position:absolute;
+    top: 1380px;
+    right: 490px;
+    box-shadow: 0px 0px 1px white;
 }
 @media screen and (max-width:700px) {
     .rond3{
@@ -438,7 +477,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
         border-radius: 50%;
         background-color: rgba(77, 27, 84, 0.2);          
         position:absolute;
-        top: 540px;
+        top: 1200px;
         left: 140px;
         box-shadow: 0px 0px 1px white;
     }
@@ -446,11 +485,21 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        background-color: rgba(108, 192, 248, 1);          
+        background-color: rgba(108, 192, 248, 0.8);          
         position:absolute;
         top: 530px;
         left: 130px;
-        box-shadow: 0px 0px 1px white;
+        box-shadow: 0px 0px 3px white;
+    }
+    .rond28{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgba(108, 192, 248, 0.8);          
+        position:absolute;
+        bottom: 530px;
+        left: 640px;
+        box-shadow: 0px 0px 3px white;
     }
     @media screen and (max-width: 700px)
     {
@@ -458,7 +507,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
             display:none;
         }
     }
-    .rond8{
+    /* .rond8{
         width: 40px;
         height: 40px;
         border-radius: 50%;
@@ -467,7 +516,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
         bottom: 155px;
         right: 180px;
         box-shadow: 0px 0px 5px white;
-     }
+     } */
      @media screen and (max-width:700px) {
          .rond8{
         width: 40px;
@@ -490,7 +539,18 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
             left: 240px;
             box-shadow: 0px 0px 2px white;
          }
-         .rond11{
+        
+        .rond30{
+           width: 40px;
+           height: 40px;
+           border-radius: 50%;
+           background-color:rgba(184, 22, 202, 0.2);
+           position:absolute;
+           bottom: -160px;
+           left: 490px;
+           box-shadow: 0px 0px 2px white;
+        }
+         /* .rond11{
             width: 50px;
             height: 50px;
             border-radius: 50%;
@@ -499,7 +559,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
             bottom: 300px;
             right: 130px;
             box-shadow: 0px 0px 4px white;
-        }
+        } */
         @media screen and (max-width:700px)
         {
             .rond11{
@@ -523,11 +583,21 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
             width: 30px;
             height: 30px;
             border-radius: 50%;
-            background-color: salmon;       
+            background-color: rgb(250, 126, 112,0.7);       
             position:absolute;
             bottom: 330px;
             right: 150px;
-            box-shadow: 0px 0px 4px white;
+            box-shadow: 0px 0px 20px white;
+        }
+        .rond29{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: rgb(250, 126, 112,0.7);       
+            position:absolute;
+            bottom: -600px;
+            left: 550px;
+            box-shadow: 0px 0px 20px white;
         }
         .rond13{
         width: 80px;
@@ -539,7 +609,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
         right: 40px;
         box-shadow: 2px 2px 4px white;
         }
-        .rond14{
+        /* .rond14{
             width: 80px;
             height: 80px;
             border-radius: 50%;
@@ -548,21 +618,20 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
             bottom: 520px;
             right: 160px;
             box-shadow: 2px 2px 5px white;
-         }
+         } */
          @media screen and (max-width:700px) {
             .rond14{
                 display:none;
              }
-         }
          .rond15{
             width: 50px;
             height: 50px;
             border-radius: 50%;
-            background-color:rgba(108, 192, 248, 1);
+            background-color:rgba(108, 192, 248, 0.3);
             position:absolute;
             bottom:10px;
             right: 80px;
-            box-shadow: 1px 1px 5px white;
+            box-shadow: 0px 0px 3px white;
          }
          @media screen and (max-width:700px){
          .rond15{
@@ -573,10 +642,10 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
             position:absolute;
             bottom:10px;
             right: 40px;
-            box-shadow: 1px 1px 5px white;
+            box-shadow: 1px 1px 20px white;
          }
         }
-        .rond16{
+        /* .rond16{
         width: 100px;
         height: 100px;
         border-radius: 50%;
@@ -585,7 +654,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
         top: 400px;
         right: 10px;
         box-shadow: 2px 2px 20px white;
-        }
+        } */
         @media screen and (max-width:700px)
         {
             .rond16{
@@ -619,21 +688,20 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
             width: 40px;
             height: 40px;
             border-radius: 50%;
-            background-color: rgba(108, 192, 248, 1);          
+            background-color: rgba(108, 192, 248, 0.8);          
             position:absolute;
             top: 20px;
             right: 30px;
-            box-shadow: 0px 0px 10px white;
+            box-shadow: 0px 0px 20px white;
         }
         .rond19{
             width: 100px;
             height: 100px;
             border-radius: 50%;
-            background-color: rgba(151, 35, 167, 1);          
+            background-color: rgba(151, 35, 167, 0.1);          
             position:absolute;
             top: 1080px;
             right: 160px;
-            box-shadow: 2px 2px 4px white;
             }
             .rond20{
                 width: 100px;
@@ -643,7 +711,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
                 position:absolute;
                 top: 980px;
                 left: 370px;
-                box-shadow: 0px 0px 20px white;
+                box-shadow: 0px 0px 15px white;
             }
             @media screen and (max-width:700px)
             {
@@ -662,11 +730,10 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
                 width: 90px;
                 height: 90px;
                 border-radius: 50%;
-                background-color: salmon;
+                background-color: rgb(250, 128, 114,0.2);
                 position:absolute;
                 bottom: -800px;
-                left: 200px;
-                box-shadow: 2px 2px 20px white;
+                left: 160px;
              }
              @media screen and (max-width:700px)
              {
@@ -674,7 +741,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
                    display:none;
                  }
              }
-             .rond22{
+             /* .rond22{
                 width: 40px;
                 height: 40px;
                 border-radius: 50%;
@@ -683,7 +750,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
                 bottom: -620px;
                 left: 430px;
                 box-shadow: 0px 0px 20px white;
-             }
+             } */
              @media screen and (max-width:700px)
              {
                 .rond22{
@@ -704,24 +771,24 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
                     }
                  }
                     .rond24{
-                        width: 120px;
-                        height: 120px;
+                        width: 70px;
+                        height: 70px;
                         border-radius: 50%;
-                        background-color: rgba(151, 35, 167, 1);          
+                        background-color: rgba(151, 35, 167, 0.7);          
                         position:absolute;
-                        top: 1250px;
-                right: 760px;
-                box-shadow: 2px 2px 20px white;
+                        top: 1500px;
+                right: 700px;
+                box-shadow: 0px 0px 30px white;
                 }
                 .rond25{
                     width: 50px;
                     height: 50px;
                     border-radius: 50%;
-                    background-color: rgba(108, 192, 248, 1);
+                    background-color: rgba(108, 192, 248, 0.6);
                     position:absolute;
                     top:1480px;
                     right: 120px;
-                    box-shadow: 1px 1px 20px white;
+                    box-shadow: 0px 0px 20px white;
                  }
                  @media screen and (max-width:700px)
                  {
