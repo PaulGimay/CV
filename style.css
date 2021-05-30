@@ -37,7 +37,8 @@ body{
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     text-align:center;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Gruppo', cursive;
+    /* font-family: 'Anton', sans-serif; */
     /* font-family: 'Satisfy', cursive; */
     font-size: 1.5em;
     color: whitesmoke;
@@ -54,7 +55,7 @@ body{
     font-size: 3.5em;
     text-shadow: 2px 2px 5px black;
     margin-top: 30px;
-    letter-spacing: 4px;
+    
 }
 @media screen and (max-width:700px)
 {
@@ -62,7 +63,7 @@ body{
         font-size: 3em;
         text-shadow: 2px 2px 5px black;
         margin-top: 30px;
-        letter-spacing: 2.8px;
+       
     }
 }
 @media screen and (max-width:700px)
@@ -72,13 +73,13 @@ body{
 #bilingue{
     color: salmon;
   
-    letter-spacing: 2px;
+  
 }
 
 #age{
     color: silver;
    
-    letter-spacing: 3px;
+   
 }
 #web{
     font-size: 2.5em;
@@ -125,8 +126,8 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     text-align: center;
-    /* font-family: 'Satisfy', cursive; */
-    font-family: 'Anton', sans-serif;
+    font-family: 'Satisfy', cursive;
+      
     font-size: 1.3em;
     color: whitesmoke;
     margin: 2%;
@@ -140,16 +141,18 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
 }
 #parcours{
     /* font-family: 'Satisfy', cursive; */
-    font-family: 'Anton', sans-serif;
+    font-family: 'Gruppo', cursive;
     color: white;
     text-shadow: 2px 2px 5px black;
     font-size: 3.5em;
     margin-top: 60px;
-    letter-spacing: 3px;
+    font-weight: bold;
+    
 }
 @media screen and (max-width:700px)
 {#parcours{
     font-size: 3em;
+    font-weight: bold;
 }
 
 }
@@ -163,15 +166,17 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
 #competences{
 
     /* font-family: 'Satisfy', cursive; */
-    font-family: 'Anton', sans-serif;
+    font-family: 'Gruppo', cursive;
     color: white;
     text-shadow: 2px 2px 5px black;
     font-size:3.5em;
+    font-weight: bold;
     width: 60%;
    text-align: center;
     margin-top: 10px;
     margin: 0 auto;
-    letter-spacing: 3px;
+    font-weight: bold;
+    
 }
 @media screen and (max-width:700px){
     #competences{
@@ -212,12 +217,14 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
     margin-left: 20px;
     font-family: 'Gruppo', cursive;
     text-shadow: 1px 1px 1px black;
+    font-weight: bold;
 }
 .texte{
     color: white;
     font-size: 1em;
     font-family: 'Gruppo', cursive;
     text-shadow: 1px 1px 3px black;
+    font-weight: bold;
 }
 .photopn{
     text-align:left;
@@ -252,6 +259,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
     margin-bottom: 10px;
     font-family: 'Gruppo', cursive;
     text-shadow: 1px 1px 1px black;
+    font-weight: bold;
 }
 .cvliste{
     margin-top: -20px;
@@ -308,12 +316,25 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
 }
 .github{
     font-size: 1em;
+    font-weight: bold;
+}
+@media screen and (max-width:700px) {
+    .github{
+    font-size :0.9em;
+   
+}
 }
 .fa-mobile-alt{
     color: silver;
 }
 .portable{
     font-size: 1em;
+}
+@media screen and (max-width:700px) {
+    .portable{
+    font-size :0.9em;
+   
+}
 }
 .fa-envelope{
     color:white;
@@ -329,8 +350,8 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
     -webkit-backdrop-filter: blur( 7.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.3 );
-    /* font-family: 'Satisfy', cursive; */
-    font-family: 'Anton', sans-serif;
+    font-family: 'Satisfy', cursive;
+    /* font-family: 'Anton', sans-serif; */
     font-size: 1em;
    
     color: whitesmoke;
@@ -349,28 +370,27 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
     justify-content: space-around;
     align-items: center;
     color: salmon;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Gruppo', cursive;
     
-    font-size: 2em;
+    font-size: 2.5em;
     text-shadow: 1px 1px 5px black;
     margin-bottom: 10px;
 }
 #contact{
-    /* font-family: 'Satisfy', cursive; */
-    /* font-family: 'Anton', sans-serif; */
-    font-family: 'Satisfy', cursive;
+   
+    font-family: 'Gruppo', cursive;
     color: whitesmoke;
     text-shadow: 1px 1px 5px black;
-    font-size:2.8em;
+    font-size:2.5em;
     text-align: center;
 }
 @media screen and (max-width:700px) {
     #contact{
         /* font-family: 'Anton', sans-serif; */
-        font-family: 'Satisfy', cursive;
+        font-family: 'Gruppo', cursive;
         color: whitesmoke;
         text-shadow: 1px 1px 5px black;
-        font-size:2em;
+        font-size:1em;
         text-align: center;
    
 }
@@ -378,10 +398,11 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
 #contact{
     /* font-family: 'Satisfy', cursive; */
     /* font-family: 'Anton', sans-serif; */
-    font-family: 'Satisfy', cursive;
+    font-family: 'Gruppo', cursive;
+    
     color: whitesmoke;
     text-shadow: 1px 1px 5px black;
-    font-size:2.8em;
+    font-size:2.5em;
     text-decoration: underline;
     text-align: center;
 }
@@ -392,11 +413,19 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
 }
 .mail{
     font-size: 1em;
+    font-weight: bold;
+}
+@media screen and (max-width:700px) {
+    .mail{
+    font-size :0.9em;
+   
+}
 }
 .tel{
     text-shadow: none;
     color:whitesmoke;
     font-size: 1em;
+    font-weight: bold;
 }
 .githubuser{
     color: whitesmoke;
