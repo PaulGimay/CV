@@ -59,12 +59,16 @@ body{
 @media screen and (max-width:700px)
 {
     .presentation h1{
-        font-size: 3.3em;
+        font-size: 3em;
         text-shadow: 2px 2px 5px black;
         margin-top: 30px;
-        letter-spacing: 3px;
+        letter-spacing: 2.8px;
     }
 }
+@media screen and (max-width:700px)
+{}
+
+
 #bilingue{
     color: salmon;
   
@@ -88,15 +92,14 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
 @media screen and (max-width:700px)
 {
     #web{
-        font-size: 2.8em;
+        font-size: 2.5em;
         background: #941DCF;
     background: -webkit-linear-gradient(to right, #941DCF 60%, #da6710 80%);
     background: -moz-linear-gradient(to right, #941DCF 60%, #074285 80%);
-    background: linear-gradient(to right, #4b19a7 60%, white 75%);
+    background: linear-gradient(to right, #4b19a7 30%, salmon 65%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-align:center;
-    margin-top: 40px;
+     
     }
 }
 #tete{
@@ -165,7 +168,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
     letter-spacing: 3px;
 }
 .competences{
-
+ 
     grid-area: competences;
     background: rgba( 255, 255, 255, 0.05 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -305,7 +308,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
 
 
 .contact{
-
+ 
     grid-area: contact;
     background: rgba( 255, 255, 255, 0.05 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -328,6 +331,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
     transform:translate(10px,10px)
 }
 .containercontact{
+    
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -563,6 +567,20 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
             left: 240px;
             box-shadow: 0px 0px 2px white;
          }
+         @media screen and (max-width:700px){
+            .rond10{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background-color:rgba(184, 22, 202, 0.2);
+                position:absolute;
+                bottom: 90px;
+                left: 210px;
+                box-shadow: 0px 0px 2px white;
+             }
+
+
+         }
         
         .rond30{
            width: 40px;
@@ -590,11 +608,11 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
                     width: 50px;
                     height: 50px;
                     border-radius: 50%;
-                    background-color:rgba(29, 3, 32, 0.2);
+                    background-color:rgba(29, 3, 32, 0.1);
                     position:absolute;
                     bottom: 440px;
                     right: 60px;
-                    box-shadow: 0px 0px 4px white;
+                    box-shadow: 0px 0px 1px white;
             }
         }
         @media screen and (max-width:700px)
@@ -664,7 +682,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
             border-radius: 50%;
             background-color:rgba(108, 192, 248, 1);
             position:absolute;
-            bottom:10px;
+            bottom:-20px;
             right: 40px;
             box-shadow: 1px 1px 20px white;
          }
@@ -714,7 +732,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
             border-radius: 50%;
             background-color: rgba(108, 192, 248, 0.8);          
             position:absolute;
-            top: 20px;
+            top: 105px;
             right: 30px;
             box-shadow: 0px 0px 20px white;
         }
