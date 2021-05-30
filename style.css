@@ -175,7 +175,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
 }
 @media screen and (max-width:700px){
     #competences{
-        font-size: 3em,;
+        font-size: 3em;
     }
 
 
@@ -350,33 +350,35 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
     align-items: center;
     color: salmon;
     font-family: 'Satisfy', cursive;
+    
     font-size: 2em;
     text-shadow: 1px 1px 5px black;
     margin-bottom: 10px;
 }
 #contact{
     /* font-family: 'Satisfy', cursive; */
-    font-family: 'Anton', sans-serif;
+    /* font-family: 'Anton', sans-serif; */
+    font-family: 'Satisfy', cursive;
     color: whitesmoke;
     text-shadow: 1px 1px 5px black;
     font-size:2.8em;
-    text-decoration: underline;
     text-align: center;
 }
 @media screen and (max-width:700px) {
     #contact{
-        font-family: 'Anton', sans-serif;
+        /* font-family: 'Anton', sans-serif; */
+        font-family: 'Satisfy', cursive;
         color: whitesmoke;
         text-shadow: 1px 1px 5px black;
         font-size:2em;
-        text-decoration: underline;
         text-align: center;
    
 }
 }
 #contact{
     /* font-family: 'Satisfy', cursive; */
-    font-family: 'Anton', sans-serif;
+    /* font-family: 'Anton', sans-serif; */
+    font-family: 'Satisfy', cursive;
     color: whitesmoke;
     text-shadow: 1px 1px 5px black;
     font-size:2.8em;
@@ -385,6 +387,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
 }
 .mail a{
     color: whitesmoke;
+    text-decoration: none;
    
 }
 .mail{
