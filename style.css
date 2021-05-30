@@ -116,7 +116,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
     }
 }
 .parcours{
-  
+
     grid-area: parcours;
     background: rgba( 255, 255, 255, 0.05 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -147,6 +147,12 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
     margin-top: 60px;
     letter-spacing: 3px;
 }
+@media screen and (max-width:700px)
+{#parcours{
+    font-size: 3em;
+}
+
+}
 .histoire{
     color: salmon;
     font-size: 1.9em;
@@ -166,6 +172,13 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
     margin-top: 10px;
     margin: 0 auto;
     letter-spacing: 3px;
+}
+@media screen and (max-width:700px){
+    #competences{
+        font-size: 3em,;
+    }
+
+
 }
 .competences{
  
@@ -550,11 +563,11 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
         width: 40px;
         height: 40px;
         border-radius: 50%;
-        background-color:rgba(108, 192, 248, 1);
+        background-color:rgba(108, 192, 248, 0.4);
         position:absolute;
         bottom: 50px;
         left: 80px;
-        box-shadow: 2px 2px 5px white;
+        box-shadow: 0px 0px 1px white;
          }
         }
          .rond10{
@@ -680,11 +693,11 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
             width: 50px;
             height: 50px;
             border-radius: 50%;
-            background-color:rgba(108, 192, 248, 1);
+            background-color:rgba(108, 192, 248, 0.3);
             position:absolute;
-            bottom:-20px;
+            bottom:-130px;
             right: 40px;
-            box-shadow: 1px 1px 20px white;
+            box-shadow: 0px 0px 10px white;
          }
         }
         /* .rond16{
@@ -765,7 +778,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
                     position:absolute;
                     top: 2400px;
                     left: 100px;
-                    box-shadow: 0px 0px 20px white;
+                    box-shadow: 0px 0px 1px white;
                 }
             }
             .rond21{
@@ -805,10 +818,10 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
                      width: 40px;
                      height: 40px;
                      border-radius: 50%;
-                     background-color:rgba(108, 192, 248, 1);
+                     background-color:rgba(108, 192, 248, 0.7);
                      position:absolute;
                      bottom: -480px;
-                     left: 80px;
+                     left: 100px;
                      box-shadow: 0px 0px 20px white;
                     }
                  }
@@ -861,6 +874,9 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
                      display:none;
                  }
                  .rond16{
+                     display:none;
+                 }
+                 .rond3{
                      display:none;
                  }
 
