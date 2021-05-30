@@ -320,7 +320,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
 }
 @media screen and (max-width:700px) {
     .github{
-    font-size :0.9em;
+    font-size :0.8em;
    
 }
 }
@@ -332,7 +332,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
 }
 @media screen and (max-width:700px) {
     .portable{
-    font-size :0.9em;
+    font-size :0.8em;
    
 }
 }
@@ -390,7 +390,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
         font-family: 'Gruppo', cursive;
         color: whitesmoke;
         text-shadow: 1px 1px 5px black;
-        font-size:1em;
+        font-size:0.8em;
         text-align: center;
    
 }
@@ -417,7 +417,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
 }
 @media screen and (max-width:700px) {
     .mail{
-    font-size :0.9em;
+    font-size :0.8em;
    
 }
 }
