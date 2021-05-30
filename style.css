@@ -15,7 +15,7 @@ body{
     width:100%;
    /*  height:290vh; */
 }
-@media screen and (max-width:700px)
+@media screen and (max-width:480px)
 {
   /*   body{
         height:460vh;
@@ -64,7 +64,7 @@ body{
     margin-top: 30px;
     letter-spacing: 4px;
 }
-@media screen and (max-width:700px)
+@media screen and (max-width:480px)
 {
     .presentation h1{
         font-size: 3.3em;
@@ -93,7 +93,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
-@media screen and (max-width:700px)
+@media screen and (max-width:480px)
 {
     #web{
         font-size: 2.8em;
@@ -214,7 +214,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
 .photopn{
     text-align:left;
 }
-@media screen and (max-width:700px)
+@media screen and (max-width:480px)
  {
      .pn2{
          position:relative;
@@ -373,7 +373,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
     text-align: center;
     padding: 20px;
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:480px) {
         .container{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto auto;
@@ -384,7 +384,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
          "contact";
     }
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:480px) {
     .containercontact{
         flex-direction: column;
     }
@@ -413,7 +413,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
   
  } */
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:480px) {
     .rond2{
         display:none;
     }
@@ -457,7 +457,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
     right: 490px;
     box-shadow: 0px 0px 1px white;
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:480px) {
     .rond3{
         width: 100px;
         height: 100px;
@@ -517,7 +517,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
         right: 180px;
         box-shadow: 0px 0px 5px white;
      } */
-     @media screen and (max-width:700px) {
+     @media screen and (max-width:480px) {
          .rond8{
         width: 40px;
         height: 40px;
@@ -560,7 +560,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
             right: 130px;
             box-shadow: 0px 0px 4px white;
         } */
-        @media screen and (max-width:700px)
+        @media screen and (max-width:480px)
         {
             .rond11{
                     width: 50px;
@@ -573,7 +573,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
                     box-shadow: 0px 0px 4px white;
             }
         }
-        @media screen and (max-width:700px)
+        @media screen and (max-width:480px)
         {
             .rond12{
                 display: none;
@@ -619,7 +619,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
             right: 160px;
             box-shadow: 2px 2px 5px white;
          } */
-         @media screen and (max-width:700px) {
+         @media screen and (max-width:480px) {
             .rond14{
                 display:none;
              }
@@ -633,7 +633,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
             right: 80px;
             box-shadow: 0px 0px 3px white;
          }
-         @media screen and (max-width:700px){
+         @media screen and (max-width:480px){
          .rond15{
             width: 50px;
             height: 50px;
@@ -655,7 +655,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
         right: 10px;
         box-shadow: 2px 2px 20px white;
         } */
-        @media screen and (max-width:700px)
+        @media screen and (max-width:480px)
         {
             .rond16{
                 width: 100px;
@@ -678,7 +678,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
             left: 10px;
             box-shadow: 0px 0px 10px white;
         }
-        @media screen and (max-width:700px)
+        @media screen and (max-width:480px)
         {
             .rond17{
                 display:none;
@@ -713,7 +713,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
                 left: 370px;
                 box-shadow: 0px 0px 15px white;
             }
-            @media screen and (max-width:700px)
+            @media screen and (max-width:480px)
             {
                 .rond20{
                     width: 100px;
@@ -735,7 +735,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
                 bottom: -800px;
                 left: 160px;
              }
-             @media screen and (max-width:700px)
+             @media screen and (max-width:480px)
              {
                  .rond21{
                    display:none;
@@ -751,13 +751,13 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
                 left: 430px;
                 box-shadow: 0px 0px 20px white;
              } */
-             @media screen and (max-width:700px)
+             @media screen and (max-width:480px)
              {
                 .rond22{
                     display:none;
                  }  
              }
-             @media screen and (max-width:700px)
+             @media screen and (max-width:480px)
              {
                  .rond23{
                      width: 40px;
@@ -790,7 +790,7 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
                     right: 120px;
                     box-shadow: 0px 0px 20px white;
                  }
-                 @media screen and (max-width:700px)
+                 @media screen and (max-width:480px)
                  {
                     .rond25{
                   display:none;
