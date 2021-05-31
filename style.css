@@ -333,18 +333,12 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
 @media screen and (max-width:700px) {
     .portable{
     font-size :0.8em;
-/* }
+}
 .testwindows:before {
 
-    content : " <i class=" acquis far fa-hand-point-right">test";
+    content : "<p class="texte testwindows"><i class=" acquis far fa-hand-point-right"> </i> &nbsp;Windows 7<iclass="fab fa-windows fa-2x"></i> administration, maintenance</p>
+    "
 }
-@media screen and (max-width:700px){
-    .testwindows:before {
-
-        content : " <i class=" acquis far fa-hand-point-right">ok";
-    }
-
-} */
 }
 .fa-envelope{
     color:white;
