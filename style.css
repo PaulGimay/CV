@@ -333,8 +333,18 @@ background: linear-gradient(to right, #4b19a7 40%, salmon 65%);
 @media screen and (max-width:700px) {
     .portable{
     font-size :0.8em;
-   
+/* }
+.testwindows:before {
+
+    content : " <i class=" acquis far fa-hand-point-right">test";
 }
+@media screen and (max-width:700px){
+    .testwindows:before {
+
+        content : " <i class=" acquis far fa-hand-point-right">ok";
+    }
+
+} */
 }
 .fa-envelope{
     color:white;
